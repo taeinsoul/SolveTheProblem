@@ -2,7 +2,7 @@ import random
 def quiz():
   print('solve the problem!!')
   while True :
-    print("addtion: 0, subtraction:1, multiplication:2, division(Quotient):3, devision(reminder):4, exit:5")
+    print("addtion: 0, subtraction: 1, multiplication: 2, division(Quotient): 3, devision(Reminder): 4, exit: 5")
     number = int(input('input:'))
     if number == 0:
       count = 0
