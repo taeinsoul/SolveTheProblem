@@ -1,6 +1,6 @@
 import random
 def quiz():
-  print('solve the problem!!')
+  print("Solve the Problem !!")
   while True :
     print("addtion: 0, subtraction: 1, multiplication: 2, division(Quotient): 3, devision(Reminder): 4, exit: 5")
     number = int(input('input:'))
@@ -9,8 +9,8 @@ def quiz():
       collect = 0
       notCollect = 0
       while count < 10:
-        b_rand = random.randrange(1,9)
-        a_rand = random.randrange(1,9)
+        b_rand = random.randrange(0,9)
+        a_rand = random.randrange(0,9)
         a = input(f'{b_rand} + {a_rand} = ')
         if b_rand+a_rand == int(a):
           print("TRUE.")
@@ -25,8 +25,8 @@ def quiz():
       collect = 0
       notCollect = 0
       while count < 10:
-        b_rand = random.randrange(1,9)
-        a_rand = random.randrange(1,9)
+        b_rand = random.randrange(0,9)
+        a_rand = random.randrange(0,9)
         a = input(f'{b_rand} - {a_rand} = ')
         if b_rand-a_rand == int(a):
           print("TRUE.")
@@ -41,8 +41,8 @@ def quiz():
       collect = 0
       notCollect = 0
       while count < 10:
-        b_rand = random.randrange(1,9)
-        a_rand = random.randrange(1,9)
+        b_rand = random.randrange(0,9)
+        a_rand = random.randrange(0,9)
         a = input(f'{b_rand} * {a_rand} = ')
         if b_rand*a_rand == int(a):
           print("TRUE.")
