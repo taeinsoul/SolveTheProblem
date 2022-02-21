@@ -2,6 +2,3 @@
 import quiz
 
 quiz.quiz()
-
-
-
