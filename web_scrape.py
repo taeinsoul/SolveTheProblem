@@ -34,7 +34,7 @@ def scraping_mossblanc_lists(WebUrl):
   return index_lists
 
 def scraping_mossblanc_list_one_by_one_save_csv(lists):
-  f = open('output.csv', 'w', encoding='utf-8', newline='')
+  f = open('output.csv', 'w', encoding='utf-8-sig', newline='')
   wr = csv.writer(f)
   
   for item in lists:

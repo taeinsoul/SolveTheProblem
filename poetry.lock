@@ -14,14 +14,6 @@ html5lib = ["html5lib"]
 lxml = ["lxml"]
 
 [[package]]
-name = "csv342"
-version = "1.0.1"
-description = "Python 3 like CSV module for Python 2"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "soupsieve"
 version = "2.3.1"
 description = "A modern CSS selector implementation for Beautiful Soup."
@@ -32,15 +24,12 @@ python-versions = ">=3.6"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a95552cc7948cba6e35dee1db119d8f3127ac85520d8cc694dd8a85e8cce51fc"
+content-hash = "b760a7a880d76b2f4fcfb54a1da7bf1137dc24c835164b0ba5233ce195a9df09"
 
 [metadata.files]
 beautifulsoup4 = [
     {file = "beautifulsoup4-4.10.0-py3-none-any.whl", hash = "sha256:9a315ce70049920ea4572a4055bc4bd700c940521d36fc858205ad4fcde149bf"},
     {file = "beautifulsoup4-4.10.0.tar.gz", hash = "sha256:c23ad23c521d818955a4151a67d81580319d4bf548d3d49f4223ae041ff98891"},
-]
-csv342 = [
-    {file = "csv342-1.0.1.zip", hash = "sha256:232a6c42f8e6a24b0c461319ccc0b5a392834fda4850244fcbddc97937ede027"},
 ]
 soupsieve = [
     {file = "soupsieve-2.3.1-py3-none-any.whl", hash = "sha256:1a3cca2617c6b38c0343ed661b1fa5de5637f257d4fe22bd9f1338010a1efefb"},
